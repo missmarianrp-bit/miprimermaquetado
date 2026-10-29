@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(44, 153, 117);
+  padding: 10px 20px;
+}
+
+header .marca {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+header .marca img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
